@@ -11,9 +11,8 @@ A lightweight, beginner-friendly Flask REST API for managing parking slots, rese
 - **Parking Slots (`GET /slots`)**: View all parking slots with total, available, and occupied counters. Supports status filtering (`?status=available` or `?status=occupied`).
 - **Reservations (`GET /reservations` & `POST /reservations`)**: List active reservations or book an available slot with payload validation and conflict protection.
 - **Metrics (`GET /metrics`)**: Exposes Prometheus-compatible metrics (`parking_api_http_requests_total`, `parking_available_slots`, etc.) ready for future Prometheus/Grafana monitoring.
-- **Automated Testing**: 100% test coverage of all core endpoints using `pytest`.
-- **Docker Ready**: Production-grade, lightweight container configuration running Python on port 5000 with debug mode disabled.
-
+- **Automated Testing**: Automated tests covering all core endpoints using pytest.
+- **Docker Ready**: Lightweight container configuration running Python on port 5000 with debug mode disabled.
 ---
 
 ## 📁 Project Structure
