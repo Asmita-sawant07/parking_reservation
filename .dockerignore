@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Git metadata
+.git/
+.gitignore
+
+# Environment and secrets
+.env
+.env.*
+
+# OS and IDE files
+.DS_Store
+.AppleDouble
+.vscode/
+.idea/
+
+# Documentation and markdown
+README.md
+*.md
